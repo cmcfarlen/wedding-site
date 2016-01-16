@@ -1,0 +1,98 @@
+/* some style */
+
+body {
+    background-color: #BBB9CD;
+    font-family: "Courier New";
+    font-size: large;
+}
+
+div.well {
+    color: #BBB9CD;
+    background-image: linear-gradient(#414141 0px, #414141 100%);
+}
+
+.jumbotron {
+    background-color: #414141;
+    color: #BBB9CD;
+    font-family: "Courier New";
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.invitation h2 {
+    line-height: 0.1em;
+}
+
+.form-group {
+    font-family: "Courier New";
+    font-size: large;
+}
+
+.invitation {
+    xbackground-image: url("/images/background.png");
+    xbackground-repeat: repeat-y;
+    margin-left: auto;
+    margin-right: auto;
+    width: 605px;
+    background-color: #414141;
+    color: #BBB9CD;
+    font-family: "Courier New";
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+div.header {
+    border: none;
+}
+
+.navbar-default {
+    background-color: #BBB9CD;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+.nav {
+   color: #414141;
+   font-family: "Courier New";
+   x-font-size: 2.5em;
+}
+
+.nav:link {
+   color: #414141;
+}
+
+h2 {
+   font-family: 'Brush Script MT', cursive;
+   font-size: 2.5em;
+}
+
+div.info {
+    margin-bottom: 5em;
+}
+
+.info h4 {
+    line-height: 0.4;
+}
+
+.info h2 {
+    line-height: 0.6;
+}
+
+span {
+   color: #BBB9CD;
+}
+
+a.btn.active {
+    pointer-events: none;
+}
+
+a.btn.disabled {
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: #777;
+}
+
+.btn.disabled {
+    cursor: default;
+}
